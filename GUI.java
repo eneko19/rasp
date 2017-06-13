@@ -42,10 +42,10 @@ public class GUI extends JFrame implements ActionListener{
 		pnLeft.setOpaque(false);
 		pnRight.setOpaque(false);
 	
-		btnHabitacion1 = new JButton("<html>Habitación 1:<br> Luz apagada</html>");
-		btnHabitacion2 = new JButton("<html>Habitación 2:<br> Luz apagada</html>");
-		btnHabitacion3 = new JButton("<html>Habitación 3:<br> Luz apagada</html>");
-		btnHabitacion4 = new JButton("<html>Habitación 4:<br> Luz apagada</html>");
+		btnHabitacion1 = new JButton("<html>LED Verde:<br> Luz apagada</html>");
+		btnHabitacion2 = new JButton("<html>LED Rojo:<br> Luz apagada</html>");
+		btnHabitacion3 = new JButton("<html>LED Amarillo:<br> Luz apagada</html>");
+		btnHabitacion4 = new JButton("<html>Prueba:<br> Luz apagada</html>");
 		
 		btnHabitacion1.addActionListener(this);
 		btnHabitacion2.addActionListener(this);

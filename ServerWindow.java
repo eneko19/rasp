@@ -21,8 +21,8 @@ public class ServerWindow extends JFrame{
 	final GpioController gpio = GpioFactory.getInstance();
 
 	private GpioPinDigitalOutput myLedGreen = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_07);
-	private GpioPinDigitalOutput myLedRed = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_02);
-	private GpioPinDigitalOutput myLedYellow = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_03);
+	private GpioPinDigitalOutput myLedRed = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_00);
+	private GpioPinDigitalOutput myLedYellow = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_02);
 
 	
 	public GpioPinDigitalOutput getMyLedGreen(){
@@ -138,8 +138,6 @@ public class ServerWindow extends JFrame{
 				
 				hilo.start();
 				
-				
-				txtMensajes.append("Ha llegado una petición!!!\n LED1: " + led1 + "\nLED2: " + led2 + "\nLED3: " + led3);
 				
 			}
 			

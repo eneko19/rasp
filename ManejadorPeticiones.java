@@ -27,9 +27,7 @@ public class ManejadorPeticiones implements Runnable{
 	@Override
 	public void run() {
 		
-		ventana.getTxtMensajes().append("Atendiendo una petición de un cliente desde el hilo " + Thread.currentThread().getName());
 		
-		System.out.println("\nAtendiendo una petición de un cliente desde el hilo " + Thread.currentThread().getName());
 		
 		// Creamos un buffer de entrada para recibir el mensaje del cliente
 		
